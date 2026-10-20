@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.boit {
+    background-color: rgb(63, 108, 253);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+

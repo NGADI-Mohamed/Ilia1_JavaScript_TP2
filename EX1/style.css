@@ -1,0 +1,23 @@
+.btn {
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(114, 63, 235);
+    color: rgb(245, 240, 250);
+    cursor: pointer;
+}
+
+.box {
+    border: 1px solid;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 1s;
+}
+.box1 {
+    background-color: aqua;
+}
+.box2 {
+    background-color: orange;
+}

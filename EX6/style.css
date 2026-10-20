@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+/* give size to the menu box  */
+.menu {
+    width: 200px;
+}
+
+/* style the menu title */
+#titre {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(43, 109, 252);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* style the list : max-height:0 and overflow:hidden  to hide the list */
+#list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    max-height: 0;            /* !!!!!!!!!!! */
+    overflow: hidden;      /* !!!!!!!!!!! */
+    transition: max-height 0.6s ease;
+}
+
+/* style the list items */
+#list li {
+    background-color: hsl(0, 0%, 90%);
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+#list li a {
+    text-decoration: none;
+    color: black;
+}
+
+#list li:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+}
+
+/* show the list by adding 200px to max-height */
+#list.ouvert {
+    max-height: 200px; /* !!!!!!!!!!!!!!! */
+}
+

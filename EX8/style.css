@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    padding: 70px 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+#box1 {
+    background-color: rgb(6, 138, 245);
+}
+
+#box2 {
+    background-color: rgb(245, 56, 56);
+}
